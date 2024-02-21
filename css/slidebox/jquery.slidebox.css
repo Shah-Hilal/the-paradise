@@ -1,0 +1,30 @@
+.slidebox {
+  position: relative;
+  width: 100%;
+  overflow: hidden; }
+  .slidebox .slidebox-row {
+    width: 100%;
+    display: table; }
+  .slidebox .slidebox-image {
+    display: table-cell;
+    position: relative; }
+    .slidebox .slidebox-image .slidebox-open {
+      position: absolute;
+      z-index: 100;
+      bottom: 5%;
+      right: 5%; }
+    .slidebox .slidebox-image img {
+      width: 100%;
+      height: auto;
+      display: block; }
+  .slidebox .slidebox-container {
+    position: absolute;
+    z-index: 10000;
+    width: 0;
+    height: 0;
+    background-size: cover;
+    background-position: center center; }
+    .slidebox .slidebox-container .slidebox-closebutton {
+      position: absolute;
+      top: 5%;
+      right: 5%; }

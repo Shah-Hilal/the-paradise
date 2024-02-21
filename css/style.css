@@ -1,0 +1,199 @@
+@font-face {
+   font-family: "Lato";
+   src: url("../fonts/lato-regular-webfont.eot");
+   src: url("../fonts/lato-regular-webfont.eot?#iefix") format("embedded-opentype"),
+        url("../fonts/lato-regular-webfont.woff") format("woff"),
+        url("../fonts/lato-regular-webfont.ttf") format("truetype"),
+        url("../fonts/lato-regular-webfont.svg#latoregular") format("svg");
+   font-weight: normal;
+   font-style: normal;
+}
+
+
+body{
+/*max-width:1020px;*/
+position: relative;
+/*left: 200px;*/
+background-image: url("../images/bg-main.gif");
+font-family: Helvetica;
+}
+.cf:before,
+.cf:after {
+   content: " ";
+   display: table;
+}
+
+.cf:after {
+   clear: both;
+}
+
+.cf {
+   *zoom: 1; /* for IE6 and IE7 */
+}
+
+
+* {
+ -webkit-box-sizing: border-box;
+ -moz-box-sizing: border-box;
+ box-sizing: border-box;
+}
+
+
+.content{
+float: left;
+width: 700px;
+font-family: Lato;
+}
+
+.extlink{
+float: right;
+width: 320px;
+padding-top: 50px;
+padding-left: 30px;
+font-family: Lato;
+text-transform: uppercase;
+letter-spacing: 3px;
+}
+.extlink a:hover{
+text-decoration: underline;
+color: #cdb8a5;
+background: #fefefe;}
+h1{
+width: 100px;
+
+}
+
+#header{
+background: linear-gradient( to right, #cdb8a5, #4e0324);
+}
+a{
+color: white;
+text-decoration: none;
+}
+
+.social{
+float: left;
+}
+.social img{
+width: 25px;
+height: 25px;
+}
+.left{
+float: left;
+margin: 0 15px 15px 15px;
+width: 150px;
+}
+.author{
+
+float: right;
+width: 320px;
+padding:30px;
+height: 600px;
+font-family: Lato;
+
+background: url("../images/bg-column.png") no-repeat top right;}
+
+h3{
+text-decoration: underline;}
+div.content-main{
+padding: 10px;
+background: url("../images/bg-column.png") no-repeat center right;
+font-family: Lato; 
+text-align: justify;
+}
+h4 {
+color: #810430;
+font-size: 1.5em;
+font-family: Lato, Helvetica, sans-serif;
+}
+.links {
+font-size: 1.35em;
+text-decoration: none;
+color:#810430;
+transition: color 1s ease-in 0s;
+font-family: Helvetica;
+
+}
+
+a.links{
+display: inline-block;
+height:50px;
+width: auto;
+margin: 8px;
+padding: 8px;
+
+
+position: relative;
+top: 20px;
+
+}
+
+
+
+
+
+
+.links:hover{
+text-decoration: underline;
+color: white;
+font-family: Lato;}
+
+.links:active{
+background: #4e0324;
+color: white;
+}
+a.on {
+color: white ;
+background: #4e0324;
+border-radius: 15px;
+
+
+}
+
+.label{
+display: inline-block;
+height: 25px;
+width: 70px;
+}
+#gender label{
+padding-left: 20px;
+}
+input[type=reset]{
+width: 100px;
+height: 30px;
+background: linear-gradient(#87053e, #560329, #590336);
+color: white;
+margin: 5px;}
+
+
+input[type=submit]{
+width: 100px;
+height: 30px;
+background:linear-gradient(#87053e, #560329, #590336);
+color: white;
+margin: 5px;
+}
+
+span{
+font-style: normal;
+font-weight: bold;
+font-size: x-large;
+text-decoration: underline;
+}
+button, .button{
+background: linear-gradient(#87053e, #560329, #590336);
+color: white;
+border: solid #87053e 3px;
+width: 50px;
+height: 45px;
+box-shadow: rgba(0, 0, 0, .35) 0 0px 5px 05px;
+border-radius: 5px;}
+
+
+#links{
+text-align: justify;}
+.imgses{
+float: left;
+width: 150px;
+padding: 15px;
+}

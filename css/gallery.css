@@ -1,0 +1,36 @@
+.header{
+	color:white;
+	background-color:black;
+	opacity:0.8;
+	text-align:center;
+	font-size:30px;
+	font-family:latin;
+}
+p{
+	color:grey;
+	font-size:20px;
+	}
+.table{
+	height:400px;
+	width:300px;
+	float:right;
+}
+.gallery{
+	margin:10px 50px;
+}
+.gallery img{
+	width:230px;
+	padding:5px;
+	filter:grayscale(100%);
+	transition:1s;
+}
+.gallery img:hover{
+	filter:grayscale(0%);
+	transform:scale(1.1);
+}
+h1{
+		text-align:center;
+		color:forestgreen;
+		margin:50px 0 0;
+	
+}
